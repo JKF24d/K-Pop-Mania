@@ -1,0 +1,129 @@
+/* Tipografías */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+/* Estilos generales */
+header, footer {
+    background-color: #1c1c1e;
+}
+
+header h1 {
+    color: #a66df5;
+    font-size: 2.5rem;
+}
+
+nav .nav-link {
+    color: #f8f9fa;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav .nav-link:hover {
+    color: #a66df5;
+}
+
+footer p {
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9rem;
+}
+
+/* Estilos por sección */
+#bts {
+    color: #8b5cff; /* Color morado para BTS */
+}
+
+#bts h2 {
+    color: #6a0dad;
+}
+
+#straykids {
+    color: #000000; /* Color negro para Stray Kids */
+}
+
+#straykids h2 {
+    color: #333;
+}
+
+#twice {
+    color: #ff66b2; /* Color rosa para Twice */
+}
+
+#twice h2 {
+    color: #d63384;
+}
+
+#blackpink {
+    color: #ff1493; /* Color rosa fuerte para Blackpink */
+}
+
+#blackpink h2 {
+    color: #e60073;
+}
+
+/* Estilos de listas */
+.list-group-item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+#bts .list-group-item {
+    background-color: #f3e6ff;
+    color: #4a0072;
+}
+
+#straykids .list-group-item {
+    background-color: #f1f1f1;
+    color: #1c1c1c;
+}
+
+#twice .list-group-item {
+    background-color: #ffe6f2;
+    color: #b3005e;
+}
+
+#blackpink .list-group-item {
+    background-color: #ffe6f5;
+    color: #b30047;
+}
+
+/* Efecto hover en las listas */
+.list-group-item:hover {
+    background-color: #e0e0e0;
+    color: #000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Botón de navegación (menú) */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%288, 8, 8, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Pie de página */
+footer {
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+footer p {
+    margin: 0;
+}
